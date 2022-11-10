@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    --bs-body-color: #f8f9fa;
+    --bs-body-bg: #212529;
+}
+main{
+  max-width: 900px;
+  width: 56rem;
+}
+.countdown {
+  opacity: 0;
+  font-size: 1.5rem;
+  }
+.visible{
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+.hr{
+  width: 66%;
+  height: 1rem;
+  margin: 1rem auto;
+  background: repeating-linear-gradient(45deg, #ffc107, #ffc107 0.5rem, #212529 0.5rem, #212529 1.0rem);
+  display: block;
+  height: 0.5rem;
+}
