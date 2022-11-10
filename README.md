@@ -1,2 +1,4 @@
 # under-construction
-Under Construction / Coming Soon page with a countdown and social media icons
+A mobile ready, responsive, Under Construction / Coming Soon template page with a countdown timer.
+
+Built using Bootstrap 5.2.2, JavaScript and jQuery.
