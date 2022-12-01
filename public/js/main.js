@@ -11,10 +11,10 @@ const int = setInterval(() => {
   const difference = end - now;
 
   // Time calculation
-  const days = Math.floor(difference / 86400000);
-  const hours = Math.floor((difference % 86400000) / 3600000);
-  const mins = Math.floor((difference % 3600000) / 60000);
-  const seconds = Math.floor((difference % 60000) / 1000);
+  const days = Math.floor(difference / 86_400_000);
+  const hours = Math.floor((difference % 86_400_000) / 3_600_000);
+  const mins = Math.floor((difference % 3_600_000) / 60_000);
+  const seconds = Math.floor((difference % 60_000) / 1000);
 
   // Display result if change detected
     $('.days').text() !== days ? $('.days').text(days) : null;
