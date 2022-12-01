@@ -1,5 +1,5 @@
 // Define countdown end date time here
-const end = new Date('Nov 18, 2022 12:00:00').getTime();
+const end = new Date('Dec 09, 2032 12:00:00').getTime();
 
 // Use setInterval to check and update countdown every 5 hundreths of a second
 const int = setInterval(() => {
